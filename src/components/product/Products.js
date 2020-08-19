@@ -31,7 +31,7 @@ class Products extends Component {
     show(){
         const { posts } = this.state;
         var list = posts.map((item,index)=>
-                                <ProductItem item = {item} key = {index}/>
+            <ProductItem item = {item} key = {index}/>
 
         )
         return list;
